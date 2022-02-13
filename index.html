@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <title>Frontend Mentor | Intro component with sign up form</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <main>
+        <div class="sec-wrapper hero-sec">
+            <h1>Learn to code by watching others</h1>
+            <p>
+                See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable.
+            </p>
+        </div>
+
+        <div class="sec-wrapper cta-sec">
+            <div class="cta-btn">
+                <p><span>Try it free 7 days</span> then $20/mo. thereafter</p>
+            </div>
+            <div class="cta-form">
+                <form id="form" action="" novalidate="true">
+                    <ul>
+                        <li>
+                            <input type="text" id="fname" placeholder="First Name" required="true">
+                            <p id="fname-err" class="error-msg" hidden>First Name cannot be empty</p>
+                        </li>
+                        <li>
+                            <input type="text" id="lname" placeholder="Last Name" required="true">
+                            <p id="lname-err" class="error-msg" hidden>First Name cannot be empty</p>
+                        </li>
+                        <li>
+                            <input type="email" id="email" placeholder="Email Address" required="true">
+                            <p id="email-err" class="error-msg" hidden>Looks like this is not an email</p>
+                        </li>
+                        <li>
+                            <input type="password" id="password" placeholder="Password" required="true">
+                            <p id="password-err" class="error-msg" hidden>Password cannot be empty</p>
+                        </li>
+                        <li>
+                            <button type="submit" id="submit-btn">Claim your free trial</button>
+                        </li>
+                    </ul>
+                    <p class="cta-form-tos">By clicking the button, you are agreeing to our <span>Terms and Services</span></p>
+                </form>
+            </div>
+        </div>
+    </main>
+    <script src="main.js"></script>
+</body>
+
+</html>
