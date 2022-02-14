@@ -45,6 +45,7 @@ function checkEmail(){
     if(err){
         emailError.removeAttribute('hidden');
         email.classList.toggle("onerror");
+        email.placeholder = "email@example.com";
         anyErr = true;
     }
 };
