@@ -37,7 +37,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [bikeinman.github.io](https://bikeinman.github.io/frontend-mentor-05-form/)
+- Solution URL: [https://bikeinman.github.io/frontendmentor-05-form/](https://bikeinman.github.io/frontendmentor-05-form/)
 
 ## My process
 
